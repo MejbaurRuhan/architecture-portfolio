@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Work Sans;
+  text-decoration: none;
+}
+header{
+  height: 1322px;
+  background-color: rgb(255, 244, 231);
+}
+.nav{
+  padding-left: 10%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.menu{
+  margin-right: 240px;
+}
+h2{
+  color: var(--Dark-01, #131313);
+  font-family: Work Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+a{
+  padding-left: 40px;
+  color: var(--Dark-02, #424242);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+}
+.banner-title{
+  color: var(--Dark-01, #131313);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 102px;
+}
+.para{
+  padding-top: 15px;
+  color: var(--Dark-03, #727272);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+button{
+  margin-top: 32px;
+  padding: 20px 25px;
+  margin-left: 45%;
+  background-color:  #FF900E;
+  border-radius: 8px;
+  border: 0;
+  color: white;
+  color: #FFF;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.banner-img img{
+  width: 1440px;
+  height: 700px;
+  flex-shrink: 0;
+  margin: 50px 220px;
+  
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+  .nav{
+    flex-direction: column;
+    
+  }
+  .menu{
+   margin-right: 17%;
+   
+  }
+  h2{
+    margin-right: 60px;
+  }
+  .banner-img img{
+    width: 100%;
+    margin: 20PX;
+    object-fit:cover;
+  }
+  button{
+    margin-left: 35%;
+  }
+  
+}
+@media screen and (max-width:992px) and (min-width:577px) {
+  .nav{
+   flex-direction: column;
+  
+  }
+  .menu{
+    margin-left: 10%;
+  }
+  .logo{
+    margin-right: 10%;
+    
+  }
+  .banner-img img{
+    width: 100%;
+    margin: 5PX;
+    object-fit:cover;
+  }
+  button{
+    margin-left: 38%;
+  }
+}
